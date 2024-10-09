@@ -15,7 +15,7 @@
                     <i class="fas fa-home"></i> <span>Dashboard</span>
                 </a>
             </li>
-
+           
             <!-- Produk Menu -->
             <li class="{{ Route::is('admin.product') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('admin.product') }}">
